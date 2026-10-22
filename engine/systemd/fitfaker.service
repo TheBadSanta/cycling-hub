@@ -1,0 +1,15 @@
+[Unit]
+Description=fit-file-faker: Wahoo FIT inbox -> fake Edge 840 -> Garmin Connect (monitor mode)
+After=network-online.target
+[Service]
+User=USER
+Environment=HOME=/home/USER
+Environment=XDG_CONFIG_HOME=/srv/scrapers/fitfaker/.config
+Environment=XDG_CACHE_HOME=/srv/scrapers/fitfaker/.cache
+WorkingDirectory=/srv/scrapers/fitfaker
+ExecStartPre=/srv/scrapers/fitfaker/write_config.sh
+ExecStart=/srv/scrapers/fitfaker/venv/bin/fit-file-faker -m -u /srv/data/physiology/fitfaker/inbox
+Restart=always
+RestartSec=20
+[Install]
+WantedBy=multi-user.target

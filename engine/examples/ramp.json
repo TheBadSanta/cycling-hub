@@ -1,0 +1,40 @@
+{
+ "event": "Teide 2026",
+ "event_day": "2026-12-27",
+ "start": "2026-09-21",
+ "start_ctl": 43,
+ "target_ctl": 76,
+ "note": "Rebuilt 2026-09-19 after the reload-shock week. 3:1, recovery weeks Z2-only, re-entry rule after breaks, Tue capped 3\u00d715', Thu tempo\u2192threshold wk8, Sat consolidation ladder to 1\u00d790'@92%, Sundays to 3:30. Entering Teide ~71.",
+ "weeks": [
+  {
+   "monday": "2026-09-21",
+   "block": "base1",
+   "label": "wk1 re-entry",
+   "target_tss": 485,
+   "down": false,
+   "planned_ctl": 47,
+   "planned_tsb": -17,
+   "ramp_rate": 4
+  },
+  {
+   "monday": "2026-09-28",
+   "block": "base1",
+   "label": "wk2 loaded",
+   "target_tss": 442,
+   "down": false,
+   "planned_ctl": 50,
+   "planned_tsb": -18,
+   "ramp_rate": 3
+  },
+  {
+   "monday": "2026-10-05",
+   "block": "base1",
+   "label": "wk3 riga",
+   "target_tss": 320,
+   "down": true,
+   "planned_ctl": 49,
+   "planned_tsb": -10,
+   "ramp_rate": 0
+  }
+ ]
+}

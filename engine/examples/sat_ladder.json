@@ -1,0 +1,16 @@
+{
+ "note": "Saturday SST consolidation ladder (Egor 2026-09-05, smoothed). ~2h, NO Z2 filler, generous valleys scaled to rep count (clean reps > crammed; degraded rep -> lengthen valley, don't push dirty). Intensity 85%->92% capping mid-Nov. Work-time strictly increasing for a smooth TSS climb. Consolidate many-short -> few-long. FINAL Dec 12 = 1x90' straight @92% (done last year, fine).",
+ "rungs": [
+  {"sat":"2026-09-05","block":"base1","rung":"L1","reps":10,"dur_min":5,"pct":85,"valley_min":3,"tss":94},
+  {"sat":"2026-09-12","block":"base1","rung":"L2","reps":9,"dur_min":6,"pct":86,"valley_min":3.5,"tss":102},
+  {"sat":"2026-09-26","block":"base1","rung":"L3","reps":8,"dur_min":7,"pct":87,"valley_min":4,"tss":107},
+  {"sat":"2026-10-03","block":"base2","rung":"L1","reps":7,"dur_min":9,"pct":88,"valley_min":4.5,"tss":118},
+  {"sat":"2026-10-17","block":"base2","rung":"L2","reps":6,"dur_min":11,"pct":89,"valley_min":5,"tss":124},
+  {"sat":"2026-10-24","block":"base2","rung":"L3","reps":5,"dur_min":14,"pct":90,"valley_min":5,"tss":129},
+  {"sat":"2026-10-31","block":"base3","rung":"L1","reps":4,"dur_min":18,"pct":91,"valley_min":5,"tss":132},
+  {"sat":"2026-11-14","block":"base3","rung":"L2","reps":3,"dur_min":26,"pct":92,"valley_min":7,"tss":142},
+  {"sat":"2026-11-21","block":"base3","rung":"L3","reps":2,"dur_min":40,"pct":92,"valley_min":10,"tss":143},
+  {"sat":"2026-11-28","block":"peak","rung":"L1","reps":2,"dur_min":44,"pct":92,"valley_min":10,"tss":154},
+  {"sat":"2026-12-12","block":"peak","rung":"L2","reps":1,"dur_min":90,"pct":92,"valley_min":0,"tss":151}
+ ]
+}

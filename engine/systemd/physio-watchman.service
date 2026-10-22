@@ -1,0 +1,10 @@
+[Unit]
+Description=Physio morning read 11:00 -> Slack #cycling (readings + lowest-30 SHR + coach read; pre-step pulls Health Auto Export)
+After=network-online.target
+[Service]
+Environment=HOME=/home/USER
+Type=oneshot
+User=USER
+WorkingDirectory=/srv/scrapers/physiology-engine
+ExecStartPre=-/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/health_export_low30.py
+ExecStart=/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/watchman.py

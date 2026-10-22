@@ -1,0 +1,10 @@
+[Unit]
+Description=Physio ride debrief -> #cycling (new rides, once each)
+After=network-online.target
+[Service]
+Type=oneshot
+User=USER
+Environment=HOME=/home/USER
+WorkingDirectory=/srv/scrapers/physiology-engine/scripts
+ExecStartPre=-/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/dual_check.py
+ExecStart=/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/ride_debrief.py

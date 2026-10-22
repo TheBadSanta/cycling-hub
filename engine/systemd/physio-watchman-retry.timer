@@ -1,0 +1,7 @@
+[Unit]
+Description=Physio watchman retry 11:30
+[Timer]
+OnCalendar=*-*-* 11:30:00
+Persistent=true
+[Install]
+WantedBy=timers.target

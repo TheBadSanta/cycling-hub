@@ -1,0 +1,8 @@
+[Unit]
+Description=Physiology engine daily pipeline (fit consolidation + wellness snapshot)
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=USER
+ExecStart=/srv/scrapers/physiology-engine/scripts/physio_daily.sh

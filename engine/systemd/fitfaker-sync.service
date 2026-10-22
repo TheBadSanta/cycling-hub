@@ -1,0 +1,6 @@
+[Unit]
+Description=Mirror NAS Wahoo inbox to the fit-file-faker inbox
+[Service]
+Type=oneshot
+User=USER
+ExecStart=/srv/scrapers/fitfaker/fitfaker-sync.sh

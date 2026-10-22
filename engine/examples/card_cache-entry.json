@@ -1,0 +1,29 @@
+{
+ "i195899344": {
+  "whole_drift": 1.2,
+  "hr_drop60": 35,
+  "ms": {
+   "dur": 2939,
+   "np": 242,
+   "avg_p": 242,
+   "hr": 153,
+   "cad": 65,
+   "if": 0.88,
+   "tss": 63,
+   "kj": 711,
+   "vi": 1.0,
+   "ef": 1.58,
+   "drift": 2.8,
+   "score": 77
+  },
+  "outdoor": false,
+  "lap_match": 22,
+  "align": {
+   "err": null,
+   "t0": 1244,
+   "via": "laps"
+  },
+  "attempted": true,
+  "ms_missed": 1
+ }
+}

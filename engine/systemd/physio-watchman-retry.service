@@ -1,0 +1,10 @@
+[Unit]
+Description=Physio morning read RETRY 11:30 -> #cycling (only if the 11:00 run deferred on missing data or the LLM call failed)
+After=network-online.target
+[Service]
+Type=oneshot
+User=USER
+Environment=HOME=/home/USER
+WorkingDirectory=/srv/scrapers/physiology-engine
+ExecStartPre=-/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/health_export_low30.py
+ExecStart=/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/watchman.py --retry

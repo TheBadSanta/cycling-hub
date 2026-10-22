@@ -1,0 +1,7 @@
+[Unit]
+Description=Mirror NAS Wahoo inbox every 2 min
+[Timer]
+OnCalendar=*:0/2
+Persistent=false
+[Install]
+WantedBy=timers.target

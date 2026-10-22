@@ -1,0 +1,9 @@
+[Unit]
+Description=Run physiology daily pipeline at 04:10
+
+[Timer]
+OnCalendar=*-*-* 04:10:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

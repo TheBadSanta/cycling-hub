@@ -1,0 +1,11 @@
+[Unit]
+Description=TrainingPeaks Virtual originals from TRAINER_PC -> sources/tpv_raw (dual-recording checks)
+After=network-online.target
+[Service]
+User=USER
+Environment=HOME=/home/USER
+ExecStart=/srv/scrapers/fitfaker/pull_tpvirtual_raw.sh
+Restart=always
+RestartSec=30
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=icTrainer FIT -> identity patch -> Garmin Connect (SMB pull from TRAINER_PC)
+After=network-online.target
+[Service]
+User=USER
+Environment=HOME=/home/USER
+ExecStart=/srv/scrapers/fitfaker/pull_ictrainer.sh
+Restart=always
+RestartSec=30
+[Install]
+WantedBy=multi-user.target

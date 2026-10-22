@@ -1,0 +1,7 @@
+[Unit]
+Description=Ride debrief every 15 min (offset after the site refresh)
+[Timer]
+OnCalendar=*:5/15
+Persistent=true
+[Install]
+WantedBy=timers.target

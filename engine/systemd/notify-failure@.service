@@ -1,0 +1,5 @@
+[Unit]
+Description=Report a failed unit through the shared notifier
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /srv/_shared/notify.py %i "unit FAILED. journalctl -u %i -n 50" action   # any script that posts one line to a channel you read

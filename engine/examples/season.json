@@ -1,0 +1,71 @@
+{
+ "title": "Autumn 2026 \u2014 Teide Epic",
+ "goal": "~10h Teide epic ride, Christmas holidays \u00b7 CTL 78\u201382 by Dec 20",
+ "blocks": [
+  {
+   "slug": "now",
+   "title": "This week",
+   "tag": "Live test",
+   "first_monday": "2026-07-06",
+   "weeks": 1,
+   "focus": "Two logged sessions (Sat + Sun) copied from Pre-USA wk1 \u2014 validates compliance matching against real ride data before the plan proper starts."
+  },
+  {
+   "slug": "pre-usa",
+   "title": "Pre-USA",
+   "tag": "Block 0",
+   "first_monday": "2026-07-13",
+   "weeks": 4,
+   "focus": "Hold CTL ~63\u201366 on the current riding, given a repeatable shape. Even weekly load."
+  },
+  {
+   "slug": "usa",
+   "title": "USA trip",
+   "tag": "Off",
+   "first_monday": "2026-08-10",
+   "weeks": 2,
+   "off": true,
+   "focus": "Aug 7\u201325 in the USA. No plan \u2014 walk, ride if fun, zero obligation. CTL decays to ~45 (priced in)."
+  },
+  {
+   "slug": "base1",
+   "title": "Base 1",
+   "tag": "Build",
+   "first_monday": "2026-08-24",
+   "weeks": 5,
+   "focus": "Re-entry then SST ladder from 6\u00d76' @ 85%. Z2 volume. CTL 45\u219254. Wk5 = recovery."
+  },
+  {
+   "slug": "base2",
+   "title": "Base 2",
+   "tag": "Build",
+   "first_monday": "2026-09-28",
+   "weeks": 4,
+   "focus": "SST ladder reaches 90%, reps lengthen. Indoor transition. CTL 54\u219263. Wk4 = recovery."
+  },
+  {
+   "slug": "base3",
+   "title": "Base 3",
+   "tag": "Build",
+   "first_monday": "2026-10-26",
+   "weeks": 4,
+   "focus": "90\u201392%, toward continuous SST. Low-cadence for Teide grade. Base peak 90' @ 92% Nov 21. CTL 63\u219272. Wk4 = recovery."
+  },
+  {
+   "slug": "specificity",
+   "title": "Specificity",
+   "tag": "Peak",
+   "first_monday": "2026-11-23",
+   "weeks": 3,
+   "focus": "Fatigue resistance: SST placed LATE in long rides (last 1\u20131.5h). Biggest weeks. CTL 72\u219279."
+  },
+  {
+   "slug": "taper",
+   "title": "Taper / travel",
+   "tag": "Taper",
+   "first_monday": "2026-12-14",
+   "weeks": 2,
+   "focus": "Volume \u221240%, two short SST touches, fly fresh. Hold ~78. Teide epic Dec 24 \u2013 Jan 2."
+  }
+ ]
+}

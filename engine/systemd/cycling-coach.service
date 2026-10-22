@@ -1,0 +1,13 @@
+[Unit]
+Description=#cycling live coach (Slack poller -> Claude CLI)
+After=network-online.target
+[Service]
+Type=simple
+User=USER
+Environment=HOME=/home/USER
+WorkingDirectory=/srv/scrapers/physiology-engine/scripts
+ExecStart=/usr/bin/python3 /srv/scrapers/physiology-engine/scripts/cycling_coach.py
+Restart=always
+RestartSec=20
+[Install]
+WantedBy=multi-user.target

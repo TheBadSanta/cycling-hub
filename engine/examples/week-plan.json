@@ -1,0 +1,149 @@
+{
+ "week_start": "2026-10-19",
+ "phase": "Week 5 — loaded",
+ "week_label": "Week 5 (loaded)",
+ "days": [
+  {
+   "name": "Sweet-spot 3×15' @88%",
+   "type": "SST",
+   "planned_tss": 95,
+   "duration_s": 5760,
+   "if": 0.77,
+   "np": 212,
+   "summary": "3×15' SST @88%",
+   "details": "Classic SST warm-up, then 3×15' at 88% (242W), 5' valleys, 2' rec then Z2 tail. MS = the 3×15'.",
+   "segments": [
+    [
+     "ss",
+     300,
+     40,
+     "wu"
+    ],
+    [
+     "ramp",
+     300,
+     40,
+     80,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     40,
+     "wu"
+    ],
+    [
+     "ramp",
+     180,
+     70,
+     90,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     40,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     90,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     40,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     90,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     40,
+     "wu"
+    ],
+    [
+     "ss",
+     60,
+     90,
+     "wu"
+    ],
+    [
+     "ss",
+     240,
+     40,
+     "wu"
+    ],
+    [
+     "ss",
+     900,
+     88,
+     "work"
+    ],
+    [
+     "ss",
+     300,
+     40,
+     "rec"
+    ],
+    [
+     "ss",
+     900,
+     88,
+     "work"
+    ],
+    [
+     "ss",
+     300,
+     40,
+     "rec"
+    ],
+    [
+     "ss",
+     900,
+     88,
+     "work"
+    ],
+    [
+     "ss",
+     120,
+     40,
+     "rec"
+    ],
+    [
+     "ss",
+     600,
+     72,
+     "filler"
+    ],
+    [
+     "ramp",
+     300,
+     60,
+     30,
+     "cd"
+    ]
+   ],
+   "date": "2026-10-20"
+  },
+  {
+   "name": "Monday walk",
+   "type": "Walk",
+   "planned_tss": 9,
+   "duration_s": 3600,
+   "if": null,
+   "np": null,
+   "summary": "Monday walk · ~9 TSS",
+   "details": "Usual Monday walk, ~9 TSS (what intervals.icu actually scores it).",
+   "segments": [],
+   "date": "2026-10-19"
+  }
+ ]
+}

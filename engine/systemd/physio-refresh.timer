@@ -1,0 +1,7 @@
+[Unit]
+Description=Refresh training site every 15min (near-live)
+[Timer]
+OnCalendar=*:0/15
+Persistent=false
+[Install]
+WantedBy=timers.target

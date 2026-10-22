@@ -1,0 +1,7 @@
+[Unit]
+Description=Run physio watchman daily 11:00 (after overnight wellness sync, after quiet hours)
+[Timer]
+OnCalendar=*-*-* 11:00:00
+Persistent=true
+[Install]
+WantedBy=timers.target

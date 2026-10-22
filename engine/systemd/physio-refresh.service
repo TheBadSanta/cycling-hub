@@ -1,0 +1,7 @@
+[Unit]
+Description=Physiology site intraday refresh
+After=network-online.target
+[Service]
+Type=oneshot
+User=USER
+ExecStart=/srv/scrapers/physiology-engine/scripts/refresh_site.sh
